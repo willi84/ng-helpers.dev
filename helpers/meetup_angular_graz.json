@@ -1,0 +1,13 @@
+{
+    "name": "Angular Meetup Graz",
+    "desc": "Angular Community in Graz",
+    "url": "https://www.meetup.com/de-DE/Angular-Meetup-Graz/",
+    "tags": [
+      "community", "meetups"
+    ],
+    "maintainers": [
+      "manfredsteyer"
+    ],
+    "addedAt": "2021-02-14"
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "name": "Angular.io",
+    "desc": "official angular website",
+    "url": "https://angular.io/",
+    "tags": [
+      "tools"
+    ],
+    "maintainers": [
+      "angular"
+    ],
+    "addedAt": "2021-02-14"
+  }
+  

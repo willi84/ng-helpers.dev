@@ -1,0 +1,13 @@
+{
+    "name": "Angular Tailwind CSS Schematics",
+    "desc": "This schematic will add Tailwind CSS to your Angular application.",
+    "url": "https://github.com/ngneat/tailwind",
+    "tags": [
+      "schematics"
+    ],
+    "maintainers": [
+      "ngneat"
+    ],
+    "addedAt": "2021-02-14"
+  }
+  
