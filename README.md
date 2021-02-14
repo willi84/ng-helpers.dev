@@ -2,6 +2,7 @@
 
 > A collection of angular tools, libraries, communities, events, ...
 
+![Screenshot of tiny-helpers.dev](./screenshot.jpg)
 
 ## Contributing
 
