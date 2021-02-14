@@ -1,0 +1,14 @@
+{
+    "name": "ngGirls",
+    "desc": "ngGirls is an organization that aims to increase diversity in Tech",
+    "url": "https://ng-girls.org/",
+    "tags": [
+      "community"
+    ],
+    "maintainers": [
+      "shmool", "willi84", "revitalf3", "martinakraus",
+      "alisa-duncan"
+    ],
+    "addedAt": "2021-02-14"
+  }
+  

@@ -1,0 +1,55 @@
+{
+  "name": "ng-helpers",
+  "version": "1.0.0",
+  "description": "A collection of angular projects, events, communities you need to know",
+  "main": "index.js",
+  "scripts": {
+    "setup:screenshots": "node ./scripts/create-screenshots.js",
+    "setup:feeds": "node ./scripts/create-feeds.js",
+    "setup": "concurrently \"npm:setup:*\"",
+    "helper:add": "node ./scripts/add-helper.js",
+    "dev": "eleventy --serve --port $PORT",
+    "dev:vercel": "vercel dev",
+    "prebuild": "npm run setup",
+    "build": "eleventy --input=./site",
+    "deploy": "npm run build && now --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willi84/ng-helpers.dev.git"
+  },
+  "engines": {
+    "node": "^12.14.0"
+  },
+  "keywords": [],
+  "author": "Robert Willemelis <robert.dev@gmx.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willi84/ng-helpers.dev/issues"
+  },
+  "homepage": "https://github.com/willi84/ng-helpers.dev#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "chrome-aws-lambda": "^2.1.1",
+    "concurrently": "^5.1.0",
+    "copy-dir": "^1.3.0",
+    "feed": "^4.1.0",
+    "got": "^10.7.0",
+    "html-minifier": "^4.0.0",
+    "inquirer": "^7.1.0",
+    "jimp": "^0.9.5",
+    "now": "^17.1.1",
+    "p-limit": "^2.2.2",
+    "postcss": "^7.0.27",
+    "postcss-clean": "^1.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "puppeteer": "^2.1.1",
+    "puppeteer-core": "^2.1.1",
+    "slugify": "^1.4.0",
+    "terser": "^4.6.7"
+  },
+  "devDependencies": {
+    "vercel": "^19.1.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "ngConf",
+    "desc": "The World's Premier Angular Event",
+    "url": "https://www.2021.ng-conf.org/",
+    "tags": [
+      "events"
+    ],
+    "maintainers": [
+        "aaronfrost", "joeeames", "mightykip", "jorgeucano"
+    ],
+    "addedAt": "2021-02-14"
+  }
+  

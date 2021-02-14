@@ -1,0 +1,13 @@
+{
+    "name": "ngx.tools",
+    "desc": "find Angular Packages",
+    "url": "https://www.ngx.tools/",
+    "tags": [
+      "tools"
+    ],
+    "maintainers": [
+      "manekinekko"
+    ],
+    "addedAt": "2021-02-14"
+  }
+  
